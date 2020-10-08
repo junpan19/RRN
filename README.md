@@ -6,7 +6,7 @@
 The *official* implementation for the [Revisiting Temporal Modeling for Video
 Super-resolution] which is accepted by [BMVC-2020].
 
-![framework](figs/framework.png)
+![framework](figs/framework.PNG)
 
 ### Train
 We utilize 4 GTX-1080TI GPUs for training.
