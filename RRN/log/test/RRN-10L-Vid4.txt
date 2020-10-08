@@ -1,0 +1,244 @@
+RRN(
+  (neuro): neuro(
+    (conv_1): Conv2d(182, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (recon_trunk): Sequential(
+      (0): ResidualBlock_noBN(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (1): ResidualBlock_noBN(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (2): ResidualBlock_noBN(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (3): ResidualBlock_noBN(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (4): ResidualBlock_noBN(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (5): ResidualBlock_noBN(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (6): ResidualBlock_noBN(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (7): ResidualBlock_noBN(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (8): ResidualBlock_noBN(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+      (9): ResidualBlock_noBN(
+        (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      )
+    )
+    (conv_h): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (conv_o): Conv2d(128, 48, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  )
+  (down): PixelUnShuffle(upscale_factor=4)
+)
+Model size: 12.83417M
+===> 10L model has been initialized
+===> load pretrained model
+===> pretrained model is load
+===> Loading test Datasets
+===> DataLoading Finished
+===> Timer: 0.7603 sec.
+PSNR: 22.981282 dB, 	SSIM: 0.765662
+PSNR: 23.220981 dB, 	SSIM: 0.778477
+PSNR: 23.653369 dB, 	SSIM: 0.798914
+PSNR: 23.995461 dB, 	SSIM: 0.812698
+PSNR: 24.291384 dB, 	SSIM: 0.821669
+PSNR: 24.390235 dB, 	SSIM: 0.825563
+PSNR: 24.435529 dB, 	SSIM: 0.828280
+PSNR: 24.544708 dB, 	SSIM: 0.831991
+PSNR: 24.631170 dB, 	SSIM: 0.834622
+PSNR: 24.680718 dB, 	SSIM: 0.835847
+PSNR: 24.727473 dB, 	SSIM: 0.837305
+PSNR: 24.738492 dB, 	SSIM: 0.838102
+PSNR: 24.807579 dB, 	SSIM: 0.839963
+PSNR: 24.933450 dB, 	SSIM: 0.842579
+PSNR: 24.944651 dB, 	SSIM: 0.843460
+PSNR: 24.963558 dB, 	SSIM: 0.844255
+PSNR: 25.111650 dB, 	SSIM: 0.847722
+PSNR: 24.997073 dB, 	SSIM: 0.847081
+PSNR: 24.973007 dB, 	SSIM: 0.846612
+PSNR: 24.919987 dB, 	SSIM: 0.845782
+PSNR: 24.899107 dB, 	SSIM: 0.845763
+PSNR: 24.771783 dB, 	SSIM: 0.843613
+PSNR: 24.570803 dB, 	SSIM: 0.838376
+PSNR: 24.718040 dB, 	SSIM: 0.841670
+PSNR: 24.816327 dB, 	SSIM: 0.842929
+PSNR: 24.661584 dB, 	SSIM: 0.839952
+PSNR: 24.561593 dB, 	SSIM: 0.837667
+PSNR: 24.592615 dB, 	SSIM: 0.838556
+PSNR: 24.661417 dB, 	SSIM: 0.840308
+PSNR: 24.665988 dB, 	SSIM: 0.840389
+PSNR: 24.741930 dB, 	SSIM: 0.842228
+PSNR: 24.692459 dB, 	SSIM: 0.841240
+PSNR: 24.620103 dB, 	SSIM: 0.840436
+PSNR: 24.629898 dB, 	SSIM: 0.840126
+PSNR: 24.557348 dB, 	SSIM: 0.837652
+PSNR: 24.524270 dB, 	SSIM: 0.836653
+PSNR: 24.649666 dB, 	SSIM: 0.838311
+PSNR: 24.671102 dB, 	SSIM: 0.839203
+PSNR: 24.618160 dB, 	SSIM: 0.838584
+PSNR: 24.565416 dB, 	SSIM: 0.837727
+PSNR: 24.509892 dB, 	SSIM: 0.836022
+===>calendar PSNR = 24.576615968961526
+===>calendar SSIM = 0.8342436344957986
+===> DataLoading Finished
+===> Timer: 0.6404 sec.
+PSNR: 26.771365 dB, 	SSIM: 0.761507
+PSNR: 27.145314 dB, 	SSIM: 0.771442
+PSNR: 27.857912 dB, 	SSIM: 0.799036
+PSNR: 28.436390 dB, 	SSIM: 0.824490
+PSNR: 28.382209 dB, 	SSIM: 0.833600
+PSNR: 28.331069 dB, 	SSIM: 0.837261
+PSNR: 28.895418 dB, 	SSIM: 0.847661
+PSNR: 29.203381 dB, 	SSIM: 0.855938
+PSNR: 28.887255 dB, 	SSIM: 0.856122
+PSNR: 28.417540 dB, 	SSIM: 0.850197
+PSNR: 28.127770 dB, 	SSIM: 0.844496
+PSNR: 28.436528 dB, 	SSIM: 0.848110
+PSNR: 28.291919 dB, 	SSIM: 0.846029
+PSNR: 28.025212 dB, 	SSIM: 0.843485
+PSNR: 27.813878 dB, 	SSIM: 0.838262
+PSNR: 27.730778 dB, 	SSIM: 0.832946
+PSNR: 27.785873 dB, 	SSIM: 0.834434
+PSNR: 27.635405 dB, 	SSIM: 0.831007
+PSNR: 27.914756 dB, 	SSIM: 0.841102
+PSNR: 28.150120 dB, 	SSIM: 0.843253
+PSNR: 28.182192 dB, 	SSIM: 0.843285
+PSNR: 28.213730 dB, 	SSIM: 0.847875
+PSNR: 28.475033 dB, 	SSIM: 0.851550
+PSNR: 29.238364 dB, 	SSIM: 0.866203
+PSNR: 29.504951 dB, 	SSIM: 0.872498
+PSNR: 29.462335 dB, 	SSIM: 0.875282
+PSNR: 29.057991 dB, 	SSIM: 0.870486
+PSNR: 29.652738 dB, 	SSIM: 0.880428
+PSNR: 29.952379 dB, 	SSIM: 0.884793
+PSNR: 29.493424 dB, 	SSIM: 0.877758
+PSNR: 29.197329 dB, 	SSIM: 0.875075
+PSNR: 28.902069 dB, 	SSIM: 0.867852
+PSNR: 29.005488 dB, 	SSIM: 0.868763
+PSNR: 28.896864 dB, 	SSIM: 0.866375
+===>city PSNR = 28.513969927662732
+===>city SSIM = 0.846723504433814
+===> DataLoading Finished
+===> Timer: 0.7431 sec.
+PSNR: 26.249583 dB, 	SSIM: 0.757345
+PSNR: 26.351936 dB, 	SSIM: 0.762952
+PSNR: 26.773259 dB, 	SSIM: 0.786918
+PSNR: 27.036135 dB, 	SSIM: 0.798147
+PSNR: 27.141466 dB, 	SSIM: 0.804418
+PSNR: 27.101628 dB, 	SSIM: 0.805613
+PSNR: 27.191409 dB, 	SSIM: 0.808224
+PSNR: 27.222340 dB, 	SSIM: 0.809658
+PSNR: 27.066566 dB, 	SSIM: 0.805119
+PSNR: 27.369086 dB, 	SSIM: 0.812829
+PSNR: 27.247504 dB, 	SSIM: 0.808865
+PSNR: 27.094619 dB, 	SSIM: 0.804258
+PSNR: 27.279431 dB, 	SSIM: 0.811006
+PSNR: 27.380071 dB, 	SSIM: 0.814057
+PSNR: 27.263221 dB, 	SSIM: 0.812514
+PSNR: 27.302492 dB, 	SSIM: 0.812495
+PSNR: 27.288051 dB, 	SSIM: 0.809933
+PSNR: 27.183267 dB, 	SSIM: 0.808087
+PSNR: 27.361069 dB, 	SSIM: 0.810690
+PSNR: 27.286038 dB, 	SSIM: 0.807871
+PSNR: 27.171699 dB, 	SSIM: 0.804980
+PSNR: 27.256378 dB, 	SSIM: 0.806090
+PSNR: 27.201129 dB, 	SSIM: 0.804049
+PSNR: 27.029013 dB, 	SSIM: 0.801630
+PSNR: 27.191230 dB, 	SSIM: 0.805418
+PSNR: 27.080485 dB, 	SSIM: 0.801361
+PSNR: 26.807784 dB, 	SSIM: 0.791934
+PSNR: 26.961325 dB, 	SSIM: 0.798097
+PSNR: 26.866308 dB, 	SSIM: 0.795443
+PSNR: 26.773020 dB, 	SSIM: 0.793933
+PSNR: 26.965889 dB, 	SSIM: 0.798616
+PSNR: 26.875919 dB, 	SSIM: 0.796252
+PSNR: 26.805966 dB, 	SSIM: 0.795293
+PSNR: 26.944671 dB, 	SSIM: 0.798444
+PSNR: 26.854643 dB, 	SSIM: 0.794134
+PSNR: 26.745562 dB, 	SSIM: 0.791023
+PSNR: 26.937495 dB, 	SSIM: 0.797263
+PSNR: 26.833526 dB, 	SSIM: 0.792322
+PSNR: 26.759038 dB, 	SSIM: 0.792221
+PSNR: 27.041446 dB, 	SSIM: 0.800678
+PSNR: 26.824380 dB, 	SSIM: 0.793295
+PSNR: 26.732218 dB, 	SSIM: 0.791615
+PSNR: 26.677519 dB, 	SSIM: 0.792475
+PSNR: 26.579891 dB, 	SSIM: 0.788107
+PSNR: 26.466737 dB, 	SSIM: 0.786216
+PSNR: 26.539973 dB, 	SSIM: 0.787856
+PSNR: 26.382681 dB, 	SSIM: 0.781391
+PSNR: 26.413028 dB, 	SSIM: 0.783527
+PSNR: 26.527566 dB, 	SSIM: 0.786897
+===>foliage PSNR = 26.947667087293453
+===>foliage SSIM = 0.7979909718294304
+===> DataLoading Finished
+===> Timer: 0.7121 sec.
+PSNR: 29.352736 dB, 	SSIM: 0.885661
+PSNR: 29.708751 dB, 	SSIM: 0.893589
+PSNR: 30.109390 dB, 	SSIM: 0.902269
+PSNR: 30.105672 dB, 	SSIM: 0.904225
+PSNR: 30.248972 dB, 	SSIM: 0.907671
+PSNR: 30.436474 dB, 	SSIM: 0.908375
+PSNR: 30.496205 dB, 	SSIM: 0.908905
+PSNR: 30.657299 dB, 	SSIM: 0.912292
+PSNR: 30.605101 dB, 	SSIM: 0.912087
+PSNR: 30.542482 dB, 	SSIM: 0.911143
+PSNR: 30.814312 dB, 	SSIM: 0.915651
+PSNR: 30.718253 dB, 	SSIM: 0.914171
+PSNR: 30.501580 dB, 	SSIM: 0.910167
+PSNR: 30.793108 dB, 	SSIM: 0.913923
+PSNR: 30.769406 dB, 	SSIM: 0.913488
+PSNR: 30.628867 dB, 	SSIM: 0.911296
+PSNR: 30.757771 dB, 	SSIM: 0.914391
+PSNR: 30.792305 dB, 	SSIM: 0.914945
+PSNR: 30.637551 dB, 	SSIM: 0.912684
+PSNR: 30.739963 dB, 	SSIM: 0.915355
+PSNR: 30.675394 dB, 	SSIM: 0.914020
+PSNR: 30.559340 dB, 	SSIM: 0.912854
+PSNR: 30.775989 dB, 	SSIM: 0.916061
+PSNR: 30.649415 dB, 	SSIM: 0.914005
+PSNR: 30.562141 dB, 	SSIM: 0.914008
+PSNR: 30.794279 dB, 	SSIM: 0.918308
+PSNR: 30.756267 dB, 	SSIM: 0.917611
+PSNR: 30.730961 dB, 	SSIM: 0.916394
+PSNR: 30.984860 dB, 	SSIM: 0.920212
+PSNR: 30.879303 dB, 	SSIM: 0.918929
+PSNR: 30.637719 dB, 	SSIM: 0.915863
+PSNR: 30.799221 dB, 	SSIM: 0.919543
+PSNR: 30.767649 dB, 	SSIM: 0.920084
+PSNR: 30.833422 dB, 	SSIM: 0.919832
+PSNR: 31.033202 dB, 	SSIM: 0.922255
+PSNR: 31.122638 dB, 	SSIM: 0.921808
+PSNR: 31.094195 dB, 	SSIM: 0.921249
+PSNR: 31.123471 dB, 	SSIM: 0.924053
+PSNR: 31.070816 dB, 	SSIM: 0.924866
+PSNR: 31.059736 dB, 	SSIM: 0.926971
+PSNR: 31.284139 dB, 	SSIM: 0.929816
+PSNR: 31.154782 dB, 	SSIM: 0.927140
+PSNR: 31.074025 dB, 	SSIM: 0.926961
+PSNR: 31.380620 dB, 	SSIM: 0.931368
+PSNR: 31.375664 dB, 	SSIM: 0.932006
+PSNR: 31.150259 dB, 	SSIM: 0.929868
+PSNR: 31.393856 dB, 	SSIM: 0.932674
+===>walk PSNR = 30.74765020683482
+===>walk SSIM = 0.9164052544362801
+==> Average PSNR = 27.696476
+==> Average SSIM = 0.848841
